@@ -1,0 +1,90 @@
+body{
+margin:0;
+font-family: Arial, sans-serif;
+background:#f2f2f2;
+}
+
+
+/* SOCIAL ICONS */
+
+.social-icons{
+position:fixed;
+top:150px;
+left:10px;
+display:flex;
+flex-direction:column;
+gap:15px;
+}
+
+.social-icons a{
+width:40px;
+height:40px;
+border-radius:50%;
+background:white;
+display:flex;
+align-items:center;
+justify-content:center;
+text-decoration:none;
+font-size:18px;
+box-shadow:0 0 5px rgba(0,0,0,0.2);
+}
+
+.social-icons a:nth-child(1){color:#e1306c;}
+.social-icons a:nth-child(2){color:#1da1f2;}
+.social-icons a:nth-child(3){color:#1877f2;}
+.social-icons a:nth-child(4){color:red;}
+
+
+/* PROGRAM SECTION */
+
+.programs{
+text-align:center;
+padding:60px 40px;
+border-top:4px solid #1e3a8a;
+border-bottom:4px solid #1e3a8a;
+}
+
+.programs h1{
+letter-spacing:2px;
+margin-bottom:50px;
+}
+
+
+/* PROGRAM CONTAINER */
+
+.program-container{
+display:flex;
+justify-content:center;
+gap:80px;
+}
+
+
+/* PROGRAM BOX */
+
+.program-box{
+width:280px;
+}
+
+.icon{
+width:90px;
+height:90px;
+background:#1e5aa8;
+border-radius:50%;
+display:flex;
+align-items:center;
+justify-content:center;
+margin:auto;
+font-size:35px;
+color:white;
+margin-bottom:15px;
+}
+
+.program-box h2{
+margin:10px 0;
+}
+
+.program-box p{
+font-size:15px;
+color:#555;
+line-height:1.5;
+}

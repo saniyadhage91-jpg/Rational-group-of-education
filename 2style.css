@@ -1,0 +1,233 @@
+body{
+font-family: Arial, sans-serif;
+margin:0;
+background:#f5f5f5;
+}
+
+/* MAIN LAYOUT */
+
+.main{
+display:flex;
+justify-content:center;
+align-items:flex-start;
+padding:30px;
+gap:40px;
+}
+
+/* LEFT FORM */
+
+.form-box{
+width:280px;
+background:#0a1585;
+padding:20px;
+border-radius:10px;
+}
+
+.form-box h2{
+text-align:center;
+background:#f1f1f1;
+padding:12px;
+border-radius:10px;
+margin-bottom:15px;
+}
+
+form{
+background:#f1f1f1;
+padding:20px;
+border-radius:10px;
+}
+
+label{
+display:block;
+margin-top:10px;
+font-size:14px;
+}
+
+input, select{
+width:100%;
+padding:10px;
+margin-top:5px;
+border:none;
+border-radius:6px;
+background:#e6e6e6;
+box-sizing:border-box;
+}
+
+button{
+margin-top:20px;
+padding:10px;
+width:100%;
+background:#0a1585;
+color:white;
+border:none;
+border-radius:6px;
+font-weight:bold;
+cursor:pointer;
+}
+
+button:hover{
+background:#070f63;
+}
+
+/* CENTER CONTENT */
+
+.content{
+width:600px;
+}
+
+.content h2{
+text-align:center;
+font-family:cursive;
+margin-bottom:10px;
+}
+
+.content p{
+text-align:center;
+color:#444;
+line-height:1.6;
+font size:20;
+}
+
+.content a{
+display:block;
+text-align:center;
+color:#2a6edb;
+margin:15px 0;
+text-decoration:none;
+}
+
+.links{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:20px;
+font-size:18px;
+color:#2a6edb;
+margin-top:20px;
+}
+
+/* RIGHT QUICK LINKS */
+
+.quick{
+width:220px;
+background:#eee;
+padding:20px;
+border-radius:10px;
+}
+
+.quick h3{
+background:#0a1585;
+color:white;
+text-align:center;
+padding:10px;
+border-radius:6px;
+margin-bottom:10px;
+}
+
+.quick a{
+display:block;
+background:#0a1585;
+color:white;
+padding:12px;
+margin-top:10px;
+text-decoration:none;
+border-radius:20px;
+text-align:center;
+}
+
+.quick a:hover{
+background:#070f63;
+}
+.quick-links-container {
+    width: 200px;
+    font-family: sans-serif;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.quick-link-header {
+    background-color: #00008b; /* A dark blue color */
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.quick-link-item {
+    display: flex;
+    align-items: center;
+    background-color: #0000cd; /* A medium blue color */
+    color: white;
+    padding: 10px;
+    margin-bottom: 8px;
+    border-radius: 20px; /* Rounded corners for the buttons */
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.quick-link-item:hover {
+    background-color: #4169e1; /* Lighter blue on hover */
+}
+
+.icon {
+    margin-right: 10px;
+    font-size: 1.2em;
+}
+
+
+.social-icons{
+position: fixed;
+left: 10px;
+top: 200px;
+display: flex;
+flex-direction: column;
+gap: 12px;
+z-index: 1000;
+}
+
+
+
+.social-icons a{
+width: 45px;
+height: 45px;
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 50%;
+color: white;
+font-size: 20px;
+text-decoration: none;
+}
+
+
+.social-icons a:nth-child(1){
+background:#E1306C;
+}
+
+.social-icons a:nth-child(2){
+background:#1DA1F2;
+}
+
+.social-icons a:nth-child(3){
+background:#1877F2;
+}
+
+.social-icons a:nth-child(4){
+background:#FF0000;
+}
+.social-icons{
+position: fixed;
+left: 10px;
+top: 200px;
+display: flex;
+flex-direction: column;
+gap: 10px;
+}
+
+.social-icons img{
+width:40px;
+height:40px;
+border-radius:50%;
+}
